@@ -11,3 +11,9 @@ static void Print32Str(int n)
 
 
 Print32Str(2);
+Console.WriteLine();
+Print32Str(-1);
+Console.WriteLine();
+Console.WriteLine(int.MinValue);
+Console.WriteLine(-Math.Pow(2,31));
+Print32Str(int.MinValue);
